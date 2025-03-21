@@ -13,7 +13,7 @@ const Home = async () => {
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center"> 
             <p className="small-text">
-              Smart Shopping Starts Here:
+            Track prices in real-time & grab the best gadget deals!
               <Image 
                 src="/assets/icons/arrow-right.svg"
                 alt="arrow-right"
@@ -23,12 +23,12 @@ const Home = async () => {
             </p>
 
             <h1 className="head-text">
-              Unleash the Power of
-              <span className="text-primary"> PriceWise</span>
+              Harness the Power of 
+              <span className="text-primary"> FrolicPrices</span>
             </h1>
 
             <p className="mt-6">
-              Powerful, self-serve product and growth analytics to help you convert, engage, and retain more.
+            Powerful analytics to track, grow, and optimize.
             </p>
 
             <Searchbar />
