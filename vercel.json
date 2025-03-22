@@ -1,8 +1,7 @@
 {
-    "functions": {
-      "api/cron": {
-        "maxDuration": 60
-      }
+  "functions": {
+    "api/cron/route": {
+      "runtime": "nodejs18.x"
     }
   }
-  
+}
