@@ -1,7 +1,9 @@
 {
-  "functions": {
-    "api/cron/route": {
-      "runtime": "nodejs18.x"
+    "version": 2,
+    "functions": {
+      "app/api/cron/route.ts": {
+        "runtime": "nodejs18.x"
+      }
     }
   }
-}
+  
